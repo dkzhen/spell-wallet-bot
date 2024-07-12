@@ -14,7 +14,7 @@ app.get("/", async (req, res) => {
 })
 app.use("/", router)
 
-const port = parseInt(process.env.PORT) || 3001;
+const port = parseInt(process.env.PORT) || 103;
 app.listen(port, () => {
   startProcessClaim();
   console.log(`Listening on port ${port}`);
